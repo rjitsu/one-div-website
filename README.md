@@ -2,7 +2,7 @@
 
 Link : 
 
-This is a website made from only one div.
-I am sure it's one of a kind \1F605.
-Suggestions to improve are welcomed.
+This is a website made from only one div.<br>
+I am sure it's one of a kind :sweat_smile:.<br>
+Suggestions to improve are welcomed.<br>
 Made for the purpose of fulfilling my nerdy passions :).
