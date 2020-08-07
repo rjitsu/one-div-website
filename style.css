@@ -12,11 +12,13 @@ body {
 .myDiv {
     font-family: monospace;
     font-size: 3.7em;
+    width: 30vw;
+    padding: 2vh 5vw 8vh 5vw;
     background: #0779e4;
     color: white;
     width: 100%;
     position: relative;
-    width: 100vw;
+    text-align: center;
 }
 
 .myDiv::before {
