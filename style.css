@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #4cbbb9;
+    background: #ffffff;
+    width: 100vw;
 }
 
 .myDiv {
@@ -15,6 +16,7 @@ body {
     color: white;
     width: 100%;
     position: absolute;
+    width: 100vw;
 }
 
 .myDiv::before {
@@ -22,17 +24,24 @@ body {
     position: absolute;
     top: 100%;
     font-size: .5em;
-    background: #4cbbb9;
+    background: #dddddd;
     color: black;
 }
 
 .myDiv::after {
     content: "This website is made entirely from one div only 	\1F92F  And otherwise this website is pretty much useless! That is why now i will start telling you fun facts ...... Banging your  head against a wall for one hour burns 150 calories( you don't trust me,then try it for yourself) ...... Bananas are curved because they grow towards the sun ...... During your lifetime, you will produce enough saliva to fill two swimming pools ...... An eagle can kill a young deer and fly away with it(scary) ...... A baby spider is called a spiderling ......That's it,if you are here still,then contribute to this one of a kind useless one div website on my github ..... THE END";
     position: absolute;
+    width: 30vw;
+    padding: 5vh 5vw;
     top: 285%;
     font-size: .5em;
-    background: #fc0;
-    width: 100%;
-    left: 0%;
+    background: rgb(255, 251, 0);
+    left: 0;
+    right: 0;
     color: black;
+    margin: 0 auto;
+    border-radius: 5%;
+    -webkit-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
+    -moz-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
+    box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
 }
