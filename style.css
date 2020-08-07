@@ -15,17 +15,26 @@ body {
     background: #0779e4;
     color: white;
     width: 100%;
-    position: absolute;
+    position: relative;
     width: 100vw;
 }
 
 .myDiv::before {
     content: "This website is made entirely from one div only! And otherwise this website is pretty much useless! That is why now i will start telling you random things that you don't even care about 	\1F605";
     position: absolute;
-    top: 100%;
+    width: 30vw;
+    padding: 5vh 5vw;
+    top: 10vh;
     font-size: .5em;
-    background: #dddddd;
+    background: #f1f1f1;
+    left: 0;
+    right: 0;
     color: black;
+    margin: 0 auto;
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
+    -moz-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
+    box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
 }
 
 .myDiv::after {
@@ -33,14 +42,14 @@ body {
     position: absolute;
     width: 30vw;
     padding: 5vh 5vw;
-    top: 285%;
+    top: 40vh;
     font-size: .5em;
     background: rgb(255, 251, 0);
     left: 0;
     right: 0;
     color: black;
     margin: 0 auto;
-    border-radius: 5%;
+    border-radius: 30px;
     -webkit-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
     -moz-box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
     box-shadow: 4px 9px 16px 1px rgba(122, 122, 122, 1);
