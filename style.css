@@ -3,6 +3,9 @@ body{
   margin: 0;
  background:#fc0;
 }
+*,*::before.*::after{
+ box-sizing: border-box;
+}
 
 .myDiv{
   font-family: monospace;
@@ -21,7 +24,6 @@ body{
   font-size: .5em;
   background: #4cbbb9;
   color: black;
-  padding: 1em;
 }
 
 .myDiv::after{
@@ -33,5 +35,4 @@ body{
   left:0%;
   color: black;
   background: #fc0;
-  padding: 1em;
  }
