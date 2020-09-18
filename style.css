@@ -2,11 +2,11 @@ body{
  overflow-x:hidden;
   margin: 0;
  background:#fc0;
- background: linear-gradient(275deg, #5eb21b, #030d12);
-    background-size: 400% 400%;
-
-    animation: gradientChange 19s ease infinite;
+ background: linear-gradient(275deg, #f00d0d, #257aaa);
+ background-size: 400% 400%;
+ animation: gradientChange 19s ease infinite;
 }
+
 *,*::before.*::after{
  box-sizing: border-box;
 }
@@ -38,10 +38,9 @@ body{
   left:0%;
   color: black;
   background: #fc0;
-  background: linear-gradient(275deg, #5eb21b, #030d12);
-    background-size: 400% 400%;
-
-    animation: gradientChange 19s ease infinite;
+  background: linear-gradient(275deg, #f00d0d, #257aaa);
+  background-size: 400% 400%;
+  animation: gradientChange 19s ease infinite;
  }
 
 @keyframes gradientChange {
