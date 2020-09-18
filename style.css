@@ -23,6 +23,9 @@ body{
   color: white;
   width: 100%;
   position: absolute;
+  background: linear-gradient(270deg, #258fae, #d7db2c);
+  background-size: 400% 400%;
+  animation: gradient1 6s ease infinite;
 }
 
 .myDiv::before{
@@ -32,6 +35,9 @@ body{
   font-size: .5em;
   background: #4cbbb9;
   color: black;
+  background: linear-gradient(270deg, #0d0c14, #123170);
+  background-size: 400% 400%;
+  animation: gradient2 6s ease infinite;
 }
 
 .myDiv::after{
@@ -59,4 +65,11 @@ body{
     0%{background-position:0% 48%}
     50%{background-position:100% 53%}
     100%{background-position:0% 48%}
+}
+
+
+@keyframes gradient1 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
