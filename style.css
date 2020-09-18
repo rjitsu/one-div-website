@@ -2,6 +2,10 @@ body{
  overflow-x:hidden;
   margin: 0;
  background:#fc0;
+ background: linear-gradient(275deg, #5eb21b, #030d12);
+    background-size: 400% 400%;
+
+    animation: gradientChange 19s ease infinite;
 }
 *,*::before.*::after{
  box-sizing: border-box;
@@ -34,15 +38,14 @@ body{
   left:0%;
   color: black;
   background: #fc0;
-  background: linear-gradient(270deg, #6ddb62, #577dca);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 24s ease infinite;
-  -moz-animation: AnimationName 24s ease infinite;
-  animation: AnimationName 24s ease infinite;
+  background: linear-gradient(275deg, #5eb21b, #030d12);
+    background-size: 400% 400%;
+
+    animation: gradientChange 19s ease infinite;
  }
 
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@keyframes gradientChange {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
 }
