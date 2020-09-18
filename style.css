@@ -3,6 +3,7 @@ body{
   margin: 0;
  background:#fc0;
 }
+
 .myDiv{
   font-family: monospace;
   font-size:3.7em;
@@ -10,6 +11,7 @@ body{
   color: white;
   width: 100%;
   position: absolute;
+  padding: 1em;
 }
 
 .myDiv::before{
@@ -19,6 +21,7 @@ body{
   font-size: .5em;
   background: #4cbbb9;
   color: black;
+  padding: 1em;
 }
 
 .myDiv::after{
@@ -30,4 +33,5 @@ body{
   left:0%;
   color: black;
   background: #fc0;
+  padding: 1em;
  }
